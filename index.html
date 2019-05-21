@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>SHIFUMI</title>
+</head>
+<body>
+    
+    <header>
+        <h1>SHIFUMI</h1>
+    </header>
+
+    <div>
+        <div onclick="choicesAppears()" id="choices">
+            <i class="far fa-hand-rock" id="rock"></i>
+            <i class="far fa-hand-paper" id="paper"></i>
+            <i class="far fa-hand-scissors" id="scissors"></i>
+        </div>
+        <button id="restart">Restart</button>
+    </div>
+    <div id="bloc_utilisateur"></div>
+    <div id="bloc_ordi"></div>
+    <div>
+        <div class="score">
+                <div class="score_elt" id="score_label_user">vous</div>
+                <div class="score_elt" id="score_label_computer">adversaire</div>
+                <div class="score_elt" id="score_user">0</div>
+                <div class="score_elt" id="score_computer">0</div>
+        </div>
+        <div id="display"></div>
+    </div>
+
+    <footer>
+        <p>By Nadia, Julien and Smaëlle</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
